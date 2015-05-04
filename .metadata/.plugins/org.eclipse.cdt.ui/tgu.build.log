@@ -1,0 +1,6 @@
+03:08:43 **** Incremental Build of configuration Debug for project tgu ****
+make all 
+make: Nothing to be done for `all'.
+
+03:08:43 Build Finished (took 90ms)
+

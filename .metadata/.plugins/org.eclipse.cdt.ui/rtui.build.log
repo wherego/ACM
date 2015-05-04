@@ -1,0 +1,15 @@
+03:11:58 **** Build of configuration Debug for project rtui ****
+make all 
+Building file: ../src/rtui.cpp
+Invoking: Cross G++ Compiler
+g++ -I/Users/yangfeng/Documents/clang+llvm-3.6.0-x86_64-apple-darwin/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/rtui.d" -MT"src/rtui.d" -o "src/rtui.o" "../src/rtui.cpp"
+Finished building: ../src/rtui.cpp
+ 
+Building target: rtui
+Invoking: Cross G++ Linker
+g++  -o "rtui"  ./src/rtui.o   
+Finished building target: rtui
+ 
+
+03:11:59 Build Finished (took 1s.39ms)
+

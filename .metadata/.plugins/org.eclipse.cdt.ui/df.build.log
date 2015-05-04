@@ -1,0 +1,10 @@
+02:53:06 **** Incremental Build of configuration Debug for project df ****
+make all 
+Building target: df
+Invoking: LLVM C++ linker
+llvm-ld -v -L/Users/yangfeng/Documents/clang+llvm-3.6.0-x86_64-apple-darwin/lib -native -o "df"  ./src/df.bc   
+/bin/sh: llvm-ld: command not found
+make: *** [df] Error 127
+
+02:53:06 Build Finished (took 125ms)
+

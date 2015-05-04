@@ -1,0 +1,15 @@
+01:29:39 **** Build of configuration Debug for project ty ****
+make all 
+Building file: ../src/ty.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ty.d" -MT"src/ty.d" -o "src/ty.o" "../src/ty.cpp"
+Finished building: ../src/ty.cpp
+ 
+Building target: ty
+Invoking: Cross G++ Linker
+g++  -o "ty"  ./src/ty.o   
+Finished building target: ty
+ 
+
+01:29:40 Build Finished (took 877ms)
+

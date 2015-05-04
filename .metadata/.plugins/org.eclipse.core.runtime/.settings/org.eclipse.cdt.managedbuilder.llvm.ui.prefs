@@ -1,0 +1,4 @@
+Include\ path\ used\ in\ LLVM\ compilations=/Users/yangfeng/Documents/clang+llvm-3.6.0-x86_64-apple-darwin/include
+LLVM\ installation\ folder=/Users/yangfeng/Documents/clang+llvm-3.6.0-x86_64-apple-darwin
+Library\ path\ used\ in\ LLVM\ builds=/Users/yangfeng/Documents/clang+llvm-3.6.0-x86_64-apple-darwin/lib
+eclipse.preferences.version=1

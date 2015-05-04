@@ -1,0 +1,11 @@
+03:24:01 **** Rebuild of configuration Debug for project tri ****
+Info: Internal Builder is used for build
+llvm-g++ -I/Users/yangfeng/Documents/clang+llvm-3.6.0-x86_64-apple-darwin/include -O0 -emit-llvm -g3 -Wall -c -fmessage-length=0 -o src/tri.bc ../src/tri.cpp 
+clang -v -L/Users/yangfeng/Documents/clang+llvm-3.6.0-x86_64-apple-darwin/lib -native -o tri src/tri.bc 
+clang: error: unknown argument: '-native'
+Apple LLVM version 6.0 (clang-600.0.51) (based on LLVM 3.5svn)
+Target: x86_64-apple-darwin13.4.0
+Thread model: posix
+
+03:24:02 Build Finished (took 955ms)
+

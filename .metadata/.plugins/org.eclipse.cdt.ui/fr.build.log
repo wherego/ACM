@@ -1,0 +1,10 @@
+02:45:52 **** Incremental Build of configuration Debug for project fr ****
+make all 
+Building target: fr
+Invoking: LLVM C++ linker
+llvm-ld -v -L/Users/yangfeng/Documents/clang+llvm-3.6.0-x86_64-apple-darwin/lib -native -o "fr"  ./src/fr.bc   
+/bin/sh: llvm-ld: command not found
+make: *** [fr] Error 127
+
+02:45:52 Build Finished (took 173ms)
+

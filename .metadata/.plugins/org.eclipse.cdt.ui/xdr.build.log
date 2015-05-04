@@ -1,0 +1,10 @@
+02:50:12 **** Incremental Build of configuration Debug for project xdr ****
+make all 
+Building target: xdr
+Invoking: MacOS X C++ Linker
+g++  -o "xdr"  ./src/xdr.o   
+Finished building target: xdr
+ 
+
+02:50:12 Build Finished (took 276ms)
+
