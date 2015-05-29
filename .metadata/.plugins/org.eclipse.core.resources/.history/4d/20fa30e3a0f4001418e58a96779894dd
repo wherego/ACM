@@ -1,0 +1,70 @@
+//============================================================================
+// Name        : DFS.cpp
+// Author      : judyge
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include<stdio.h>
+
+const int di[4] = {0,1,0,-1},
+          dj[4] = {1,0,-1,0};
+
+unsigned maze[5][5] = {
+    2, 1, 0, 0, 0,
+    0, 1, 0, 1, 0,
+    0, 0, 0, 0, 0,
+    0, 1, 1, 1, 0,
+    0, 0, 0, 1, 0},
+    ip = 0;
+
+
+struct { int i, j; } path[23] = {0};
+
+void print_maze(void)
+{
+    int i, j;
+    for (i = 0; i < 5; i++) {
+        for (j = 0; j < 5; j++)
+            printf("%d ", maze[i][j]);
+        putchar('\n');
+    }
+    printf("*********\n");
+}
+
+
+void print_path(void)
+{
+    int i = 0;
+    printf("(0,0)");
+    for (i = 0; i < ip; i++)
+        printf("->(%d,%d)", path[i].i, path[i].j);
+}
+//输出路径
+
+void try(int i, int j)
+{
+    int k;
+    for (k = 0; k < 4; k++)
+        if (i + di[k] >= 0 && i + di[k] <5
+            && j + dj[k] >= 0 && j + dj[k] < 5
+            && maze[i + di[k]][j + dj[k]] == 0) {
+                maze[i + di[k]][j + dj[k]] = 2;
+                path[ip++].i = i + di[k]; path[ip].j = j + dj[k];
+                print_maze();
+                if (i + di[k] == 4 && j + dj[k] == 4)
+                    print_path();
+                else
+                    try(i + di[k], j + dj[k]);
+                maze[i+di[k]][j+dj[k]] = 0;
+                path[--ip].i = 0; path[ip].j = 0;
+        }
+}
+
+
+int main(void)
+{
+    try(0, 0);
+    return 0;
+}

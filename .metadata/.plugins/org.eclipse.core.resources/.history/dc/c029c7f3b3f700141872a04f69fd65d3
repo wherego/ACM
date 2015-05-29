@@ -1,0 +1,41 @@
+//============================================================================
+// Name        : fiveproblem.cpp
+// Author      : judyge
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+
+int sum1(int a[],int len)
+{
+	int sum=0;
+	for(int i=0;i<len;i++)
+	{
+		sum+=a[i];
+	}
+return sum;
+}
+
+int sum2(int a[],int len)
+{
+	int sum=0;
+	int i=0;
+	while(i<len)
+		{sum+=a[i++];}
+return sum;
+}
+
+int sum3(int a[],int len)
+{
+	int n=len;
+    sum3(a,n)=sum3(a,n-1)+a[n];
+}
+
+int main() {
+
+	return 0;
+}

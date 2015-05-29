@@ -1,0 +1,30 @@
+02:03:39 **** Incremental Build of configuration Debug for project fiveproblem ****
+make all 
+Building file: ../src/fiveproblem.cpp
+Invoking: GCC C++ Compiler
+g++ -I/Users/yangfeng/Documents/clang+llvm-3.6.0-x86_64-apple-darwin/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fiveproblem.d" -MT"src/fiveproblem.d" -o "src/fiveproblem.o" "../src/fiveproblem.cpp"
+../src/fiveproblem.cpp:76:18: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+        if (a[i] = a[i - 1])
+            ~~~~~^~~~~~~~~~
+../src/fiveproblem.cpp:76:18: note: place parentheses around the assignment to silence this warning
+        if (a[i] = a[i - 1])
+                 ^
+            (              )
+../src/fiveproblem.cpp:76:18: note: use '==' to turn this assignment into an equality comparison
+        if (a[i] = a[i - 1])
+                 ^
+                 ==
+../src/fiveproblem.cpp:93:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+2 warnings generated.
+Finished building: ../src/fiveproblem.cpp
+ 
+Building target: fiveproblem
+Invoking: MacOS X C++ Linker
+g++  -o "fiveproblem"  ./src/fiveproblem.o   
+Finished building target: fiveproblem
+ 
+
+02:03:41 Build Finished (took 1s.432ms)
+

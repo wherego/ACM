@@ -1,0 +1,22 @@
+01:36:21 **** Build of configuration Debug for project dollamak ****
+make all 
+Building file: ../src/dollamak.cpp
+Invoking: GCC C++ Compiler
+g++ -I/Users/yangfeng/Documents/clang+llvm-3.6.0-x86_64-apple-darwin/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dollamak.d" -MT"src/dollamak.d" -o "src/dollamak.o" "../src/dollamak.cpp"
+../src/dollamak.cpp:26:9: warning: unused variable 'tmp' [-Wunused-variable]
+{   int tmp=j;
+        ^
+../src/dollamak.cpp:25:5: warning: expression result unused [-Wunused-value]
+for(j;j<n;j++)
+    ^
+2 warnings generated.
+Finished building: ../src/dollamak.cpp
+ 
+Building target: dollamak
+Invoking: MacOS X C++ Linker
+g++  -o "dollamak"  ./src/dollamak.o   
+Finished building target: dollamak
+ 
+
+01:36:24 Build Finished (took 3s.363ms)
+

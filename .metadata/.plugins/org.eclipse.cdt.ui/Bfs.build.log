@@ -1,0 +1,15 @@
+17:14:55 **** Build of configuration Debug for project Bfs ****
+make all 
+Building file: ../src/Bfs.cpp
+Invoking: GCC C++ Compiler
+g++ -I/Users/yangfeng/Documents/clang+llvm-3.6.0-x86_64-apple-darwin/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Bfs.d" -MT"src/Bfs.d" -o "src/Bfs.o" "../src/Bfs.cpp"
+Finished building: ../src/Bfs.cpp
+ 
+Building target: Bfs
+Invoking: MacOS X C++ Linker
+g++  -o "Bfs"  ./src/Bfs.o   
+Finished building target: Bfs
+ 
+
+17:14:56 Build Finished (took 1s.138ms)
+

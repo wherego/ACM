@@ -1,0 +1,25 @@
+//============================================================================
+// Name        : coin.cpp
+// Author      : judyge
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+int main() {
+
+	int n;
+	cin>>n;
+	for(double k=0;sqrt(k)<n;k++)
+	{
+
+
+	}
+
+
+	return 0;
+}

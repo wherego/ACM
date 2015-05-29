@@ -1,0 +1,12 @@
+de.defmacro.dandelion.preferences.config.executable..1195464273=true
+de.defmacro.dandelion.preferences.config.executable.file..1195464273=/usr/local/Cellar/sbcl/1.2.10/bin/sbcl
+de.defmacro.dandelion.preferences.config.extern..1195464273=false
+de.defmacro.dandelion.preferences.config.logging..1195464273=false
+de.defmacro.dandelion.preferences.config.nonexecutable.commands..1195464273=\ 
+de.defmacro.dandelion.preferences.server.count=1
+de.defmacro.dandelion.preferences.server.default=1195464273
+de.defmacro.dandelion.preferences.server.host..0=localhost
+de.defmacro.dandelion.preferences.server.name..0=lisp
+de.defmacro.dandelion.preferences.server.port..0=8
+de.defmacro.dandelion.preferences.server.version..0=1
+eclipse.preferences.version=1

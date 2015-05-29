@@ -1,0 +1,15 @@
+00:10:49 **** Incremental Build of configuration Debug for project c01beibao ****
+make all 
+Building file: ../src/c01beibao.cpp
+Invoking: GCC C++ Compiler
+g++ -I/Users/yangfeng/Documents/clang+llvm-3.6.0-x86_64-apple-darwin/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/c01beibao.d" -MT"src/c01beibao.d" -o "src/c01beibao.o" "../src/c01beibao.cpp"
+Finished building: ../src/c01beibao.cpp
+ 
+Building target: c01beibao
+Invoking: MacOS X C++ Linker
+g++  -o "c01beibao"  ./src/c01beibao.o   
+Finished building target: c01beibao
+ 
+
+00:10:50 Build Finished (took 1s.229ms)
+

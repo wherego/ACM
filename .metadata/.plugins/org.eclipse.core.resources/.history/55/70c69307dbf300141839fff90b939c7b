@@ -1,0 +1,32 @@
+//============================================================================
+// Name        : peidui.cpp
+// Author      : judyge
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include<algorithm>
+using namespace std;
+
+int n;
+cin>>n;
+int a[n],b[n];
+
+int main()
+{
+
+        for(int i=0;i<n;i++)
+        	cin>>a[i]>>b[i];
+        sort(a,a+n);
+        sort(b,b+n);
+        int cnt=0;
+        for(int i=0,j=n-1;i<n;i++,j--)
+        {
+            cnt+=a[i]-b[j]>0?a[i]-b[j]:b[j]-a[i];
+        }
+        cout<<cnt
+
+    return 0;
+}

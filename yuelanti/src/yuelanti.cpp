@@ -1,0 +1,46 @@
+//============================================================================
+// Name        : yuelanti.cpp
+// Author      : judyge
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int main() {
+
+for(int a=1;a<=9;a++)
+{
+	for(int b=1;b<=9;b++)
+	{
+		for(int c=1;c<=9;c++)
+		{
+			for(int d=1;d<=9;d++)
+			{
+				for(int e=1;e<=9;e++)
+				{
+					for(int f=1;f<=9;f++)
+					{
+						for(int g=1;g<=9;g++)
+						{
+							for(int h=1;h<=9;h++)
+							{
+								for(int i=1;i<=9;i++)
+								{
+									if(a+13*b/c+d+12*e-f-11+g*h/i-10==66)
+                                        cout<<a<<b<<c<<d<<e<<f<<g<<h<<i<<"\n";
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+}
+
+	return 0;
+}

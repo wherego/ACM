@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int n;
+	cin>>n;
+    int a[n];
+    int k=0;
+    while(n--)
+    {
+    	    int  i, j;
+    	    cin>>a[k++];
+    	    for ( i = 0; i < n; i++ )
+    	    {   if ( a[k-1] < a[i] )
+    	            break;
+
+    	        for ( j = n; j >= i; j-- )
+    	            a[j + 1] = a[j];
+    	    }
+    	    a[j] ==a[k-1];
+    	}
+
+    for ( int i = 0; i < n; i++ )
+            printf( "%d\t", a[i] );
+
+return 0;
+}

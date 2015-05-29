@@ -1,6 +1,10 @@
-01:28:13 **** Incremental Build of configuration Build (GNU) for project xx ****
-make all 
-make: *** No rule to make target `all'.  Stop.
+22:58:22 **** Incremental Build of configuration Debug for project xx ****
+Info: Internal Builder is used for build
+llvm-link -v -L/Users/yangfeng/Documents/clang+llvm-3.6.0-x86_64-apple-darwin/lib -native -o xx src/xx.bc 
+llvm-link: Unknown command line argument '-L/Users/yangfeng/Documents/clang+llvm-3.6.0-x86_64-apple-darwin/lib'.  Try: 'llvm-link -help'
+llvm-link: Did you mean '-preserve-ll-use-list-order'?
+llvm-link: Unknown command line argument '-native'.  Try: 'llvm-link -help'
+llvm-link: Did you mean '-v'?
 
-01:28:13 Build Finished (took 67ms)
+22:58:22 Build Finished (took 171ms)
 

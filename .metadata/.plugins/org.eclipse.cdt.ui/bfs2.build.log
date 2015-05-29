@@ -1,0 +1,6 @@
+02:51:49 **** Incremental Build of configuration Debug for project bfs2 ****
+make all 
+make: Nothing to be done for `all'.
+
+02:51:49 Build Finished (took 66ms)
+

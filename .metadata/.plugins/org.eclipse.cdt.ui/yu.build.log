@@ -1,0 +1,11 @@
+20:57:49 **** Incremental Build of configuration Debug for project yu ****
+Info: Internal Builder is used for build
+llvm-ld -v -L/Users/yangfeng/Documents/clang+llvm-3.6.0-x86_64-apple-darwin/lib -native -o yu src/yu.bc 
+Cannot run program "llvm-ld": Unknown reason
+
+Error: Program "llvm-ld" not found in PATH
+PATH=[/usr/bin:/bin:/usr/sbin:/sbin]
+
+
+20:57:49 Build Finished (took 4ms)
+

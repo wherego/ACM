@@ -1,0 +1,23 @@
+03:13:12 **** Build of configuration Debug for project xunhuanxiaoshu ****
+make all 
+Building file: ../src/xunhuanxiaoshu.cpp
+Invoking: GCC C++ Compiler
+g++ -I/Users/yangfeng/Documents/clang+llvm-3.6.0-x86_64-apple-darwin/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/xunhuanxiaoshu.d" -MT"src/xunhuanxiaoshu.d" -o "src/xunhuanxiaoshu.o" "../src/xunhuanxiaoshu.cpp"
+../src/xunhuanxiaoshu.cpp:21:10: warning: variable 'ch' is uninitialized when used here [-Wuninitialized]
+    cin>>ch;
+         ^~
+../src/xunhuanxiaoshu.cpp:20:13: note: initialize the variable 'ch' to silence this warning
+    char *ch;
+            ^
+             = NULL
+1 warning generated.
+Finished building: ../src/xunhuanxiaoshu.cpp
+ 
+Building target: xunhuanxiaoshu
+Invoking: MacOS X C++ Linker
+g++  -o "xunhuanxiaoshu"  ./src/xunhuanxiaoshu.o   
+Finished building target: xunhuanxiaoshu
+ 
+
+03:13:14 Build Finished (took 1s.888ms)
+

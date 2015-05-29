@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+environment/project/cdt.managedbuild.config.llvm.clang.macosx.exe.debug.921950641/PATH/delimiter=\:
+environment/project/cdt.managedbuild.config.llvm.clang.macosx.exe.debug.921950641/PATH/operation=replace
+environment/project/cdt.managedbuild.config.llvm.clang.macosx.exe.debug.921950641/PATH/value=/usr/bin\:/bin\:/usr/sbin\:/sbin\:/Library/Developer/CommandLineTools/usr/bin\:/Users/yangfeng/Documents/clang+llvm-3.6.0-x86_64-apple-darwin/usr/bin
+environment/project/cdt.managedbuild.config.llvm.clang.macosx.exe.debug.921950641/append=true
+environment/project/cdt.managedbuild.config.llvm.clang.macosx.exe.debug.921950641/appendContributed=true

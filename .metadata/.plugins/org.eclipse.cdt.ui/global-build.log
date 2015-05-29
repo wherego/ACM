@@ -1,15 +1,6 @@
-04:50:49 **** Incremental Build of configuration Debug for project fenbankao ****
+16:33:16 **** Incremental Build of configuration Debug for project yuelanti ****
 make all 
-Building file: ../src/fenbankao.cpp
-Invoking: GCC C++ Compiler
-g++ -I/Users/yangfeng/Documents/clang+llvm-3.6.0-x86_64-apple-darwin/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fenbankao.d" -MT"src/fenbankao.d" -o "src/fenbankao.o" "../src/fenbankao.cpp"
-Finished building: ../src/fenbankao.cpp
- 
-Building target: fenbankao
-Invoking: MacOS X C++ Linker
-g++  -o "fenbankao"  ./src/fenbankao.o   
-Finished building target: fenbankao
- 
-04:50:55 **** Incremental Build of configuration Debug for project fenbankao ****
+make: Nothing to be done for `all'.
+16:33:52 **** Incremental Build of configuration Debug for project yuelanti ****
 make all 
 make: Nothing to be done for `all'.

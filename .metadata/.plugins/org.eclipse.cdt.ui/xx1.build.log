@@ -1,0 +1,11 @@
+22:48:29 **** Incremental Build of configuration Debug for project xx1 ****
+Info: Internal Builder is used for build
+llvm-link -v -L/Users/yangfeng/Documents/clang+llvm-3.6.0-x86_64-apple-darwin/lib -native -o xx1 src/xx1.bc 
+Cannot run program "llvm-link": Unknown reason
+
+Error: Program "llvm-link" not found in PATH
+PATH=[/usr/bin:/bin:/usr/sbin:/sbin:/Library/Developer/CommandLineTools/usr/bin/]
+
+
+22:48:29 Build Finished (took 4ms)
+

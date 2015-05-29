@@ -1,0 +1,15 @@
+04:59:53 **** Incremental Build of configuration Debug for project maxsum ****
+make all 
+Building file: ../src/maxsum.cpp
+Invoking: GCC C++ Compiler
+g++ -I/Users/yangfeng/Documents/clang+llvm-3.6.0-x86_64-apple-darwin/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/maxsum.d" -MT"src/maxsum.d" -o "src/maxsum.o" "../src/maxsum.cpp"
+Finished building: ../src/maxsum.cpp
+ 
+Building target: maxsum
+Invoking: MacOS X C++ Linker
+g++  -o "maxsum"  ./src/maxsum.o   
+Finished building target: maxsum
+ 
+
+04:59:54 Build Finished (took 676ms)
+

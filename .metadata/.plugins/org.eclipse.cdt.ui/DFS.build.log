@@ -1,0 +1,36 @@
+03:10:33 **** Incremental Build of configuration Debug for project DFS ****
+make all 
+Building file: ../src/DFS.cpp
+Invoking: GCC C++ Compiler
+g++ -I/Users/yangfeng/Documents/clang+llvm-3.6.0-x86_64-apple-darwin/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DFS.d" -MT"src/DFS.d" -o "src/DFS.o" "../src/DFS.cpp"
+../src/DFS.cpp:38:5: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+    0, 1, 0, 0, 0,
+    ^~~~~~~~~~~~~
+    {            }
+../src/DFS.cpp:39:5: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+    0, 1, 0, 1, 0,
+    ^~~~~~~~~~~~~
+    {            }
+../src/DFS.cpp:40:5: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+    0, 0, 0, 0, 0,
+    ^~~~~~~~~~~~~
+    {            }
+../src/DFS.cpp:41:5: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+    0, 1, 1, 1, 0,
+    ^~~~~~~~~~~~~
+    {            }
+../src/DFS.cpp:42:5: warning: suggest braces around initialization of subobject [-Wmissing-braces]
+    0, 0, 0, 1, 0,
+    ^~~~~~~~~~~~~
+    {            }
+5 warnings generated.
+Finished building: ../src/DFS.cpp
+ 
+Building target: DFS
+Invoking: MacOS X C++ Linker
+g++  -o "DFS"  ./src/DFS.o   
+Finished building target: DFS
+ 
+
+03:10:34 Build Finished (took 274ms)
+

@@ -1,0 +1,15 @@
+21:05:01 **** Build of configuration Debug for project sumint ****
+make all 
+Building file: ../src/sumint.cpp
+Invoking: GCC C++ Compiler
+g++ -I/Users/yangfeng/Documents/clang+llvm-3.6.0-x86_64-apple-darwin/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sumint.d" -MT"src/sumint.d" -o "src/sumint.o" "../src/sumint.cpp"
+Finished building: ../src/sumint.cpp
+ 
+Building target: sumint
+Invoking: MacOS X C++ Linker
+g++  -o "sumint"  ./src/sumint.o   
+Finished building target: sumint
+ 
+
+21:05:02 Build Finished (took 880ms)
+

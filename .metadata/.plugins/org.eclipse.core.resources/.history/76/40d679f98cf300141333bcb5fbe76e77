@@ -1,0 +1,38 @@
+//============================================================================
+// Name        : coin.cpp
+// Author      : judyge
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+int main(){
+
+	int sum=0;
+	int n;
+	cin>>n;
+	for(int k=1;;k++)
+	{
+if(k*(k+1)==n)
+   {
+      for(int j=1;j<k;j++)
+      {sum+=j*j;
+      break;}
+    }
+if(k*(k+1)/2>n&&k*(k-1)/2<n)
+{
+		for(int j=1;j<=k-1;j++)
+		{
+			sum+=j*j;
+		}
+		sum+=k*(n-k*(k-1)/2);
+	}
+
+}
+cout<<sum;
+	return 0;
+}

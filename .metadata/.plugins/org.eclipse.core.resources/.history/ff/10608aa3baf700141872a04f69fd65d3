@@ -1,0 +1,86 @@
+//============================================================================
+// Name        : fiveproblem.cpp
+// Author      : judyge
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+
+int sum1(int a[],int len)
+{
+	int sum=0;
+	for(int i=0;i<len;i++)
+	{
+		sum+=a[i];
+	}
+return sum;
+}
+
+int sum2(int a[],int len)
+{
+	int sum=0;
+	int i=0;
+	while(i<len)
+		{sum+=a[i++];}
+return sum;
+}
+
+int sum3(int a[],int len)
+{
+	int n=len;
+	if(n==1)
+		return a[0];
+    return sum3(a,n-1)+a[n-1];
+}
+
+char* hb(char m[],char n[],int len)
+{
+ char *a=new char[len*2];
+ for(int i=0;i<len;i++)
+ {
+	 a[i*2]=m[i];
+	 a[2*i-1]=n[i];
+ }
+ return a;
+
+}
+
+int* fab()
+{
+int *a=new int[100];
+a[0]=0;
+a[1]=1;
+for(int i=2;i<100;i++)
+a[i]=a[i-1]+a[i-2];
+return a;
+}
+
+
+int max(int a[])
+{
+
+
+}
+
+int main() {
+int a[10]={1,4,5,7,8,11,78,23,56,11};
+cout<<sum1(a,10);
+cout<<sum2(a,10);
+cout<<sum3(a,10);
+	return 0;
+///////////////////////////////////
+char m[3]={'a','B','C'};
+char n[3]={'1','2','3'};
+char *b=hb(m,n,3);
+for(int k=0;k<6;k++)
+{
+	cout<<b[k];
+}
+////////////////////////////////////
+cout<<fab()[99];
+////////////
+}

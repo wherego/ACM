@@ -1,0 +1,27 @@
+//============================================================================
+// Name        : xtimes.cpp
+// Author      : ju
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	int n;
+	cin>>n;
+	int i=1;
+	for(i;i<10000;i++)
+	{
+		int s=1;
+		for(int j=0;j<=i;j++)
+		{
+			s*=i;
+		}
+		if(i^i>=n)
+			{cout<<i;}
+	}
+	return 0;
+}
