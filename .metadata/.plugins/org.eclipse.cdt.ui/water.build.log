@@ -1,0 +1,10 @@
+22:51:56 **** Incremental Build of configuration Debug for project water ****
+make all 
+Building target: water
+Invoking: MacOS X C++ Linker
+g++  -o "water"  ./src/water.o   
+Finished building target: water
+ 
+
+22:51:56 Build Finished (took 188ms)
+
